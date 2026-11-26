@@ -1,0 +1,2265 @@
+-- [[ deobfuscated by axom - moonsec deobfuscator | our YouTube channel : https://youtube.com/@axos0022 | our discord server : https://discord.gg/Sps39CydcZ - finished in 18575 ms ]]
+local v1 = nil
+local v2 = nil
+local v3 = nil
+local v4 = 'discord.gg/gQEH2uZxUk'
+local v5 = syn
+if (not syn) then
+    if (not secure_load) then
+        if (not pebc_execute) then
+            if (not KRNL_LOADED) then
+                if (not is_sirhurt_closure) then
+                    if (not identifyexecutor():find("ScriptWare")) then
+                        v4 = "Unsupported"
+                    end
+                end
+            end
+        end
+    end
+else
+    if (not is_sirhurt_closure) then
+        if pebc_execute then
+            if (not secure_load) then
+                if (not pebc_execute) then
+                    if (not KRNL_LOADED) then
+                        if (not is_sirhurt_closure) then
+                            if (not identifyexecutor():find("ScriptWare")) then
+                                v4 = "Unsupported"
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    else
+        if (not secure_load) then
+            if (not pebc_execute) then
+                if (not KRNL_LOADED) then
+                    if (not is_sirhurt_closure) then
+                        if (not identifyexecutor():find("ScriptWare")) then
+                            v4 = "Unsupported"
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+if (v5 == "Synapse X") then
+    if (not syn.request) then
+        if (v5 ~= "Sentinel") then
+            if (v5 ~= "Krnl") then
+                if (v5 == "ProtoSmasher") then
+                    v3 = true
+                else
+                    if (v5 ~= "SirHurt") then
+                        if (v5 == "Script-Ware") then
+                            if (not http.request) then
+                                v3 = request
+                            end
+                        else
+                            v3 = request
+                        end
+                    else
+                        if (not http_request) then
+                            if (v5 == "Script-Ware") then
+                                if (not http.request) then
+                                    v3 = request
+                                end
+                            else
+                                v3 = request
+                            end
+                        end
+                    end
+                end
+            else
+                if not request then
+                    if (v5 == "ProtoSmasher") then
+                        v3 = true
+                    else
+                        if (v5 ~= "SirHurt") then
+                            if (v5 == "Script-Ware") then
+                                if (not http.request) then
+                                    v3 = request
+                                end
+                            else
+                                v3 = request
+                            end
+                        else
+                            if (not http_request) then
+                                if (v5 == "Script-Ware") then
+                                    if (not http.request) then
+                                        v3 = request
+                                    end
+                                else
+                                    v3 = request
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        else
+            if not request then
+                if (v5 == "ProtoSmasher") then
+                    v3 = true
+                else
+                    if (v5 ~= "SirHurt") then
+                        if (v5 == "Script-Ware") then
+                            if (not http.request) then
+                                v3 = request
+                            end
+                        else
+                            v3 = request
+                        end
+                    else
+                        if (not http_request) then
+                            if (v5 == "Script-Ware") then
+                                if (not http.request) then
+                                    v3 = request
+                                end
+                            else
+                                v3 = request
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+else
+    if (v5 ~= "Sentinel") then
+        if (v5 ~= "Krnl") then
+            if (v5 == "ProtoSmasher") then
+                v3 = true
+            else
+                if (v5 ~= "SirHurt") then
+                    if (v5 == "Script-Ware") then
+                        if (not http.request) then
+                            v3 = request
+                        end
+                    else
+                        v3 = request
+                    end
+                else
+                    if (not http_request) then
+                        if (v5 == "Script-Ware") then
+                            if (not http.request) then
+                                v3 = request
+                            end
+                        else
+                            v3 = request
+                        end
+                    end
+                end
+            end
+        else
+            if not request then
+                if (v5 == "ProtoSmasher") then
+                    v3 = true
+                else
+                    if (v5 ~= "SirHurt") then
+                        if (v5 == "Script-Ware") then
+                            if (not http.request) then
+                                v3 = request
+                            end
+                        else
+                            v3 = request
+                        end
+                    else
+                        if (not http_request) then
+                            if (v5 == "Script-Ware") then
+                                if (not http.request) then
+                                    v3 = request
+                                end
+                            else
+                                v3 = request
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    else
+        if not request then
+            if (v5 == "ProtoSmasher") then
+                v3 = true
+            else
+                if (v5 ~= "SirHurt") then
+                    if (v5 == "Script-Ware") then
+                        if (not http.request) then
+                            v3 = request
+                        end
+                    else
+                        v3 = request
+                    end
+                else
+                    if (not http_request) then
+                        if (v5 == "Script-Ware") then
+                            if (not http.request) then
+                                v3 = request
+                            end
+                        else
+                            v3 = request
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+local v6 = {
+    pcall(function(...)
+        local v5 = {}
+        v5.State = false
+        v5.Accuracy = 100
+        v5.FOV = false
+        v5.FOVSize = 250
+        v5.FOVTransparency = 1
+        v5.TriggerBot = false
+        v5.Target = "Head"
+        v5.RageBot = false
+        v5.Radio = false
+        v5.Farm = false
+        v5.HBE = false
+        v5.HBESize = 5
+        v5.HBETransparency = 0.7
+        v5.ModDetector = true
+        v5.ModLeave = false
+        v5.LeaveDelay = 0
+        v5.ProxCheck = false
+        v5.ProxDistance = 50
+        v5.Refresh = false
+        v5.RefreshFreq = 120
+        v5.Tween = 3000
+        v5.QuickUpdate = false
+        v5.MaintainWalspeed = false
+        v5.filename = "Anomaly_Scripts/SCPRP/Save.json"
+        v5.AutoReload = true
+        table.insert(v5, Clip)
+        local v6 = false
+        local v7 = {}
+        v7.UserInputService = game:GetService("UserInputService")
+        v7.PlayerService = game:GetService("Players")
+        v7.HttpService = game:GetService("HttpService")
+        local function f1(p1, ...)
+            if readfile then
+                return pcall(function(...)
+                    return readfile(p1)
+                end)
+            else
+                return
+            end
+        end
+        function Save(...)
+            if writefile then
+                if isfolder("Anomaly_Scripts") then
+                    if not isfolder("Anomaly_Scripts/SCPRP") then
+                        makefolder("Anomaly_Scripts/SCPRP")
+                    end
+                else
+                    makefolder("Anomaly_Scripts")
+                    makefolder("Anomaly_Scripts/SCPRP")
+                end
+                writefile(v5.filename, v7.HttpService:JSONEncode(v5))
+            end
+            return
+        end
+        local function f2(...)
+            local v3 = v5.filename
+            if f1(v3) then
+                local v4 = v5.filename
+                local v6 = {
+                    pcall(readfile, v4),
+                }
+                v3 = v6[2]
+                if v6[1] then
+                    local v8 = v7.HttpService.JSONDecode
+                    local v9 = v7.HttpService
+                    v4 = ({
+                        pcall(v8, v9, v3),
+                    })[1]
+                    local v10 = ({
+                        v4(v8, v9, v3),
+                    })[2]
+                    if v4 then
+                        local v11 = {
+                            pairs(v8),
+                        }
+                        local v12 = {
+                            v11[1](v11[2], v11[3]),
+                        }
+                        local v13 = v12[1]
+                        if v13[1] then
+                            v11 = v13[1]
+                        end
+                    end
+                end
+                return
+            else
+                return
+            end
+        end
+        f2()
+        local v8 = Color3.new(0.639216, 0.635294, 0.647059)
+        local v9 = {}
+        v9.Loaded = false
+        local v10 = game:GetService("VirtualInputManager")
+        keys = {
+            w = Enum.KeyCode.W,
+            a = Enum.KeyCode.A,
+            s = Enum.KeyCode.S,
+            d = Enum.KeyCode.D,
+        }
+        function presskey(p1, p2, ...)
+            v10:SendKeyEvent(true, p1, false, nil)
+            wait(p2)
+            v10:SendKeyEvent(false, p1, false, nil)
+            return
+        end
+        local v11 = game:GetService("Players")
+        local v12 = v11.LocalPlayer
+        local v13 = v12:GetMouse()
+        local v14 = game.Workspace.CurrentCamera
+        local v15 = loadstring(game:HttpGet("https://raw.githubusercontent.com/Anomaly-hub/Anomalies-Scripts/main/kiriots%20esp", true))()
+        pcall(function(...)
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-999") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-999"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-457") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-457"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-023") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-023"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-049") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-049"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-173") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-173"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-066") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-066"), {
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-966"):FindFirstChild("Instance1") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-966").Instance1, {
+                    Name = "SCP-966",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-966"):FindFirstChild("Instance2") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-966").Instance2, {
+                    Name = "SCP-966",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-966"):FindFirstChild("Instance4") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-966").Instance4, {
+                    Name = "SCP-966",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-966"):FindFirstChild("Instance3") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-966").Instance3, {
+                    Name = "SCP-966",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-131"):FindFirstChild("Yellow") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-131").Yellow, {
+                    Name = "SCP-131",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-131"):FindFirstChild("Blue") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-131").Blue, {
+                    Name = "SCP-131",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-131"):FindFirstChild("Red") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-131").Red, {
+                    Name = "SCP-131",
+                    IsEnabled = "SCPs",
+                })
+            end
+            if game:GetService("Workspace").SCPs:FindFirstChild("SCP-096"):FindFirstChild("Rig") then
+                v15:Add(game:GetService("Workspace").SCPs:FindFirstChild("SCP-096").Rig, {
+                    Name = "SCP-096",
+                    IsEnabled = "SCPs",
+                })
+            end
+            return
+        end)
+        v15.Players = false
+        v15.SCPs = true
+        v15.Boxes = true
+        v15.Tracers = false
+        v15.Names = false
+        local v16 = Drawing.new("Circle")
+        v16.Position = Vector2.new((v14.ViewportSize.X / 2), (v14.ViewportSize.Y / 2))
+        v16.Radius = 100
+        v16.Color = Color3.fromRGB(255, 255, 255)
+        v16.Thickness = 1
+        v16.Filled = false
+        v16.Visible = false
+        v16.Transparency = 1
+        v16.NumSides = 50
+        local v17 = {}
+        table.insert(v17, "Class - D")
+        table.insert(v17, "Chaos Insurgency")
+        local v18 = {}
+        table.insert(v18, "Medical Department")
+        table.insert(v18, "Mobile Task Force")
+        table.insert(v18, "Rapid Response Team")
+        table.insert(v18, "Administrative Department")
+        table.insert(v18, "Scientific Department")
+        table.insert(v18, "Security Department")
+        table.insert(v18, "Internal Security Department")
+        table.insert(v18, "Intelligence Agency")
+        function IsEnemy(p1, ...)
+            if table.find(v18, v11.LocalPlayer.Team.Name) then
+                if table.find(v17, p1.Team.Name) then
+                    return true
+                end
+                return false
+            end
+            if (not table.find(v17, p1.Team.Name)) then
+                return true
+            else
+                return false
+            end
+        end
+        local v19 = 3000
+        function tp(...)
+            local v2 = {
+                ...,
+            }
+            local v3 = v2[1]
+            if (typeof(v3) ~= "number") then
+                if (typeof(v2[1]) ~= "Vector3") then
+                    if typeof(v2[1]) == "CFrame" then
+                        v2 = v2[1].Position
+                    end
+                else
+                    v2 = v2[1]
+                end
+            else
+                if v2[2] then
+                    if v2[3] then
+                        v2 = Vector3.new(v2[1], v2[2], v2[3])
+                    else
+                        if (typeof(v2[1]) ~= "Vector3") then
+                            if typeof(v2[1]) == "CFrame" then
+                                v2 = v2[1].Position
+                            end
+                        else
+                            v2 = v2[1]
+                        end
+                    end
+                else
+                    if (typeof(v2[1]) ~= "Vector3") then
+                        if typeof(v2[1]) == "CFrame" then
+                            v2 = v2[1].Position
+                        end
+                    else
+                        v2 = v2[1]
+                    end
+                end
+            end
+            local v4 = v5.ProxCheck
+            if v4 then
+                v3 = game:GetService("Players")
+                local v6 = v3
+                v3 = v3.GetPlayers
+                v4 = ({
+                    pairs(v3(v6)),
+                })[1]
+                local v7 = ({
+                    v4(v3(v6)),
+                })[2]
+                local v8 = {
+                    v4(v7, ({
+                        v4(v7(v6)),
+                    })[3]),
+                }
+                local v9 = v8[2]
+                if v9[1] then
+                    v6 = v9[1]
+                end
+            end
+            local v10 = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(v3, Enum.EasingStyle.Linear), {
+                CFrame = CFrame.new(v2),
+            }):Play()
+            wait(v3)
+            return true
+        end
+        function tpWithouCheck(...)
+            local v2 = game.Players.LocalPlayer
+            local v3 = {
+                ...,
+            }
+            if (typeof(v3[1]) == "number") then
+                if v3[2] then
+                    if v3[3] then
+                        v3 = Vector3.new(v3[1], v3[2], v3[3])
+                    else
+                        if (typeof(v3[1]) == "Vector3") then
+                            v3 = v3[1]
+                        else
+                            if (typeof(v3[1]) == "CFrame") then
+                                v3 = v3[1].Position
+                            end
+                        end
+                    end
+                else
+                    if (typeof(v3[1]) == "Vector3") then
+                        v3 = v3[1]
+                    else
+                        if (typeof(v3[1]) == "CFrame") then
+                            v3 = v3[1].Position
+                        end
+                    end
+                end
+            else
+                if (typeof(v3[1]) == "Vector3") then
+                    v3 = v3[1]
+                else
+                    if (typeof(v3[1]) == "CFrame") then
+                        v3 = v3[1].Position
+                    end
+                end
+            end
+            local v4 = (v2.Character.HumanoidRootPart.Position - v3)
+            local v5 = (v4.Magnitude / v19)
+            v1 = game:GetService("TweenService"):Create(v2.Character.HumanoidRootPart, TweenInfo.new(v5, Enum.EasingStyle.Linear), {
+                CFrame = CFrame.new(v3),
+            }):Play()
+            wait(v5)
+            return
+        end
+        function GetPlayerFromShort(p1, ...)
+            p1 = string.lower(p1)
+            local v2 = game:GetService("Players")
+            local v3 = v2
+            local v4 = v2.GetPlayers
+            local v5 = ({
+                pairs(v4(v2)),
+            })[1]
+            local v6 = ({
+                v5(v4(v2)),
+            })[2]
+            local v7 = {
+                v5(v6, ({
+                    v5(v6(v3)),
+                })[3]),
+            }
+            local v8 = v7[2]
+            if v8[1] then
+                v3 = v8[1]
+            end
+            return
+        end
+        function NoclipLoop(...)
+            local v2 = game.Players.LocalPlayer.Character
+            if v2 ~= nil then
+                local v3 = game.Players.LocalPlayer.Character
+                local v4 = v3
+                local v5 = v3.GetDescendants
+                v2 = ({
+                    pairs(v5(v3)),
+                })[1]
+                local v6 = ({
+                    v2(v5(v3)),
+                })[2]
+                local v7 = {
+                    v2(v6, ({
+                        v2(v6(v4)),
+                    })[3]),
+                }
+                local v8 = v7[1]
+                if v8[1] then
+                    v4 = v8[1]
+                end
+            end
+            return
+        end
+        function notification(p1, p2, ...)
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+                Title = p1,
+                Text = p2,
+            })
+            return
+        end
+        function notBehindWall(p1, ...)
+            local v2 = (p1.Position - v12.Character.HumanoidRootPart.Position)
+            local v3 = Ray.new(v12.Character.HumanoidRootPart.Position, (v2.Unit * 400))
+            local v4 = game:GetService("Workspace")
+            local v5 = v3
+            local v6 = {}
+            table.insert(v6, v12.Character)
+            local v7 = {
+                v4:FindPartOnRayWithIgnoreList(v3, v6, false, true),
+            }
+            local v8 = v7[1]
+            if v8 then
+                v5 = v8.Parent:FindFirstChildOfClass("Humanoid")
+                if not v5 then
+                    v5 = v8.Parent.Parent:FindFirstChildOfClass("Humanoid")
+                end
+                if v5 then
+                    if p1 then
+                        if (v5.Parent == p1.Parent) then
+                            local v9 = {
+                                v14:WorldToScreenPoint(p1.Position),
+                            }
+                            v6 = v9[1]
+                            if (not v9[2]) then
+                                return false
+                            else
+                                return true
+                            end
+                        end
+                    end
+                end
+            end
+            return false
+        end
+        function ClosestPlayerToMouse(...)
+            local v3 = v11
+            local v4 = v11.GetPlayers
+            local v5 = ({
+                pairs(v4(v11)),
+            })[1]
+            local v6 = ({
+                v5(v4(v11)),
+            })[2]
+            local v7 = {
+                v5(v6, ({
+                    v5(v6(v11)),
+                })[3]),
+            }
+            local v8 = v7[1]
+            if v8[1] then
+                v3 = v8[1]
+            end
+            return v2
+        end
+        local v20 = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnomalyRBLX/Database/main/Libraries/Jan's%20UI%20Copy.lua", true))():CreateWindow("SCP Roleplay", Vector2.new(492, 588), Enum.KeyCode.RightShift)
+        local v21 = v20:CreateTab("Main")
+        local v22 = v20:CreateTab("Miscellaneous")
+        local v23 = v20:CreateTab("Settings")
+        local v24 = v21:CreateSector("Silent Aim", "left")
+        v24:AddToggle("Enabled", v5.State, function(p1, ...)
+            v5.State = p1
+            return
+        end)
+        v24:AddSlider("Accuracy", 1, v5.Accuracy, 100, 1, function(p1, ...)
+            v5.Accuracy = p1
+            return
+        end)
+        local v25 = {}
+        table.insert(v25, "Head")
+        table.insert(v25, "HumanoidRootPart")
+        table.insert(v25, "LeftUpperArm")
+        table.insert(v25, "LowerTorso")
+        table.insert(v25, "UpperTorso")
+        table.insert(v25, "RightUpperArm")
+        table.insert(v25, "LeftLowerLeg")
+        table.insert(v25, "RightLowerLeg")
+        table.insert(v25, "RightUpperLeg")
+        table.insert(v25, "LeftFoot")
+        table.insert(v25, "RightFoot")
+        table.insert(v25, "LeftUpperLeg")
+        table.insert(v25, "RightLowerArm")
+        table.insert(v25, "LeftLowerArm")
+        table.insert(v25, "LeftHand")
+        table.insert(v25, "RightHand")
+        local v26 = {}
+        table.insert(v26, "Random")
+        table.insert(v26, "Head")
+        table.insert(v26, "HumanoidRootPart")
+        table.insert(v26, "LeftUpperArm")
+        table.insert(v26, "LowerTorso")
+        table.insert(v26, "UpperTorso")
+        table.insert(v26, "RightUpperArm")
+        table.insert(v26, "LeftLowerLeg")
+        table.insert(v26, "RightLowerLeg")
+        table.insert(v26, "RightUpperLeg")
+        table.insert(v26, "LeftFoot")
+        table.insert(v26, "RightFoot")
+        table.insert(v26, "LeftUpperLeg")
+        table.insert(v26, "RightLowerArm")
+        table.insert(v26, "LeftLowerArm")
+        table.insert(v26, "LeftHand")
+        table.insert(v26, "RightHand")
+        v24:AddDropdown("Target", v26, v5.Target, false, function(p1, ...)
+            v5.Target = p1
+            return
+        end)
+        v24:AddSeperator("")
+        v24:AddToggle("FOV Circle", v5.Enabled, function(p1, ...)
+            v5.FOV = p1
+            return
+        end)
+        v24:AddSlider("FOV Size", 50, v5.FOVSize, 750, 1, function(p1, ...)
+            v5.FOVSize = p1
+            v16.Radius = p1
+            return
+        end)
+        v24:AddSlider("FOV Transparency", 0, 100, 100, 1, function(p1, ...)
+            v5.FOVTransparency = (p1 / 100)
+            v16.Transparency = (p1 / 100)
+            return
+        end)
+        local v27 = v21:CreateSector("Miscellaneous", "right")
+        v27:AddToggle("Trigger Bot", v5.TriggerBot, function(p1, ...)
+            if (not v9.Loaded) then
+                return
+            end
+            v5.TriggerBot = p1
+            if p1 then
+                notification("Notice", "This feature only works with Silent Aim enabled.")
+            end
+            return
+        end)
+        v27:AddToggle("Auto-Reload", v5.AutoReload, function(p1, ...)
+            v5.AutoReload = p1
+            return
+        end)
+        v27:AddButton("Mod Guns", function(...)
+            local v1 = true
+            local v2 = ({
+                getgc(true),
+            })[1]
+            local v3 = {
+                next(v2, ({
+                    v2(true),
+                })[2]),
+            }
+            local v4 = v3[1]
+            if v4[1] then
+                v1 = v4[1]
+            end
+            return
+        end)
+        v27:AddSeperator("Hitbox Expander")
+        v27:AddToggle("Enabled", v5.HBE, function(p1, ...)
+            if (not v9.Loaded) then
+                return
+            end
+            v5.HBE = p1
+            local v3 = v5.HBE
+            if v3 then
+                local v4 = v7.PlayerService
+                local v6 = v4
+                local v8 = v4.GetPlayers
+                v3 = ({
+                    pairs(v8(v4)),
+                })[1]
+                local v10 = ({
+                    v3(v8(v4)),
+                })[2]
+                local v11 = {
+                    v3(v10, ({
+                        v3(v10(v6)),
+                    })[3]),
+                }
+                local v12 = v11[1]
+                if v12[1] then
+                    v6 = v12[1]
+                end
+            else
+                v3 = v5.HBE
+                if (not v3) then
+                    local v13 = v7.PlayerService
+                    local v14 = v13
+                    local v15 = v13.GetPlayers
+                    v3 = ({
+                        pairs(v15(v13)),
+                    })[1]
+                    local v16 = ({
+                        v3(v15(v13)),
+                    })[2]
+                    local v17 = {
+                        v3(v16, ({
+                            v3(v16(v14)),
+                        })[3]),
+                    }
+                    local v18 = v17[1]
+                    if v18[1] then
+                        v14 = v18[1]
+                    end
+                end
+            end
+            return
+        end)
+        v27:AddSlider("Size", 1, v5.HBESize, 25, 1, function(p1, ...)
+            v5.HBESize = p1
+            local v2 = v5.HBE
+            if v2 then
+                local v3 = v7.PlayerService
+                local v4 = v3
+                local v6 = v3.GetPlayers
+                v2 = ({
+                    pairs(v6(v3)),
+                })[1]
+                local v8 = ({
+                    v2(v6(v3)),
+                })[2]
+                local v9 = {
+                    v2(v8, ({
+                        v2(v8(v4)),
+                    })[3]),
+                }
+                local v10 = v9[1]
+                if v10[1] then
+                    v4 = v10[1]
+                end
+            end
+            return
+        end)
+        v27:AddSlider("Transparency", 0, 70, 100, 1, function(p1, ...)
+            local v1 = (p1 / 100)
+            v5.HBETransparency = v1
+            local v2 = v5.HBE
+            if v2 then
+                v1 = v7.PlayerService
+                local v3 = v1
+                v1 = v1.GetPlayers
+                v2 = ({
+                    pairs(v1(v3)),
+                })[1]
+                local v4 = ({
+                    v2(v1(v3)),
+                })[2]
+                local v6 = {
+                    v2(v4, ({
+                        v2(v4(v3)),
+                    })[3]),
+                }
+                local v8 = v6[1]
+                if v8[1] then
+                    v3 = v8[1]
+                end
+            end
+            return
+        end)
+        v27:AddColorpicker("Color", Color3.new(0.639216, 0.635294, 0.647059), function(p1, ...)
+            f2 = p1
+            local v2 = v5.HBE
+            if v2 then
+                local v3 = v7.PlayerService
+                local v4 = v3
+                local v6 = v3.GetPlayers
+                v2 = ({
+                    pairs(v6(v3)),
+                })[1]
+                local v8 = ({
+                    v2(v6(v3)),
+                })[2]
+                local v9 = {
+                    v2(v8, ({
+                        v2(v8(v4)),
+                    })[3]),
+                }
+                local v10 = v9[1]
+                if v10[1] then
+                    v4 = v10[1]
+                end
+            end
+            return
+        end)
+        v27:AddSeperator("ESP")
+        v27:AddToggle("Enabled", v5.ESP, function(p1, ...)
+            v15:Toggle(p1)
+            return
+        end)
+        v27:AddToggle("Show Players", v5.ESPPlayers, function(p1, ...)
+            v5.ESPPlayers = p1
+            v15.Players = p1
+            return
+        end)
+        v27:AddToggle("Show SCPs", v5.ESPSCPs, function(p1, ...)
+            v5.ESPSCPs = p1
+            v15.SCPs = p1
+            return
+        end)
+        local v28 = v21:CreateSector("SCPs", "left")
+        v28:AddButton("Self-Infect | SCP-008", function(...)
+            if game.Players.LocalPlayer.Character.HumanoidRootPart.BrickColor.Name == "Olivine" then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Error",
+                    Text = "You already are SCP-008!",
+                })
+                return
+            end
+            tpWithouCheck(527, 43, 393)
+            while true do
+                wait()
+            end
+        end)
+        v28:AddButton("Self-Infect | SCP-409", function(...)
+            if not (not game.Players.LocalPlayer.Character.LeftLowerArm:FindFirstChild("Crystal")) then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Error",
+                    Text = "You already are infected with SCP-409!",
+                })
+                return
+            end
+            if not (not game.Players.LocalPlayer.Character.RightLowerArm:FindFirstChild("Crystal")) then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Error",
+                    Text = "You already are infected with SCP-409!",
+                })
+                return
+            end
+            local v1 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            tpWithouCheck(-89, 37, -9)
+            while true do
+                wait()
+                if (not game.Players.LocalPlayer.Character.LeftLowerArm:FindFirstChild("Crystal")) then
+                    if not game.Players.LocalPlayer.Character.RightLowerArm:FindFirstChild("Crystal") then
+
+                    end
+                else
+                    wait(5)
+                    tpWithouCheck(v1)
+                    return
+                end
+            end
+        end)
+        v28:AddSeperator("")
+        local v29 = {}
+        table.insert(v29, "SCP-173")
+        table.insert(v29, "SCP-096")
+        v28:AddDropdown("Recontain SCP", v29, "N/A", false, function(p1, ...)
+            if v9.Loaded then
+                if (game.Players.LocalPlayer.Team.Name ~= "Mobile Task Force") then
+                    if (game.Players.LocalPlayer.Team.Name ~= "Rapid Response Team") then
+                        notification("Error", "You can only use this feature if you are on the MTF or RRT team!")
+                    else
+                        if (p1 == "SCP-173") then
+                            game:GetService("ReplicatedStorage").Remotes.Update:FireServer(workspace.SCPs:FindFirstChild("SCP-173"))
+                            notification("Success!", "SCP-173 has been successfully recontained.")
+                        else
+                            game:GetService("ReplicatedStorage").Remotes.Update:FireServer(workspace.SCPs:FindFirstChild("SCP-096"))
+                            notification("Success!", "SCP-096 has been successfully recontained.")
+                        end
+                    end
+                else
+                    if (p1 == "SCP-173") then
+                        game:GetService("ReplicatedStorage").Remotes.Update:FireServer(workspace.SCPs:FindFirstChild("SCP-173"))
+                        notification("Success!", "SCP-173 has been successfully recontained.")
+                    else
+                        game:GetService("ReplicatedStorage").Remotes.Update:FireServer(workspace.SCPs:FindFirstChild("SCP-096"))
+                        notification("Success!", "SCP-096 has been successfully recontained.")
+                    end
+                end
+                return
+            else
+                return
+            end
+        end)
+        v28:AddTextbox("Infect Player | SCP-008", "Input Player", function(p1, ...)
+            if (not v9.Loaded) then
+                return
+            end
+            local v1 = GetPlayerFromShort(p1).Character:FindFirstChild("HumanoidRootPart")
+            if (not v1) then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Error",
+                    Text = "No user matching that name found!",
+                })
+                return
+            end
+            local v2 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            local v3 = game.Players.LocalPlayer.Character.HumanoidRootPart.BrickColor.Name
+            if (v3 ~= "Olivine") then
+                tpWithouCheck(527, 43, 393)
+                while true do
+                    wait()
+                end
+            else
+                v3 = 0
+                while true do
+                    tpWithouCheck(v1.Position)
+                    wait(0.1)
+                    v3 = (v3 + 1)
+                    if (v1.BrickColor.Name == "Olivine") then
+                        if v3 == 50 then
+                            game:GetService("StarterGui"):SetCore("SendNotification", {
+                                Title = "Error",
+                                Text = "Infection attempt failed!",
+                            })
+                        end
+                        tpWithouCheck(v2)
+                        return
+                    end
+                end
+            end
+        end)
+        v28:AddTextbox("Infect Player | SCP-409", "Input Player", function(p1, ...)
+            if not v9.Loaded then
+                return
+            end
+            local v1 = GetPlayerFromShort(p1)
+            if not (v1) then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Error",
+                    Text = "No user matching that name found!",
+                })
+                return
+            end
+            local v2 = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+            local v3 = game.Players.LocalPlayer.Character.LeftLowerArm:FindFirstChild("Crystal")
+            if (not v3) then
+                v3 = game.Players.LocalPlayer.Character.RightLowerArm:FindFirstChild("Crystal")
+                if (not v3) then
+                    v3 = tpWithouCheck
+                    tpWithouCheck(-89, 37, -9)
+                    while true do
+                        wait()
+                        if not game.Players.LocalPlayer.Character.LeftLowerArm:FindFirstChild("Crystal") then
+                            if not game.Players.LocalPlayer.Character.RightLowerArm:FindFirstChild("Crystal") then
+
+                            end
+                        end
+                        wait(5)
+                        v3 = 0
+                        while true do
+                            tpWithouCheck(v1.Character.HumanoidRootPart.Position)
+                            wait(0.1)
+                            v3 = (v3 + 1)
+                            if v1.Character.LeftLowerArm:FindFirstChild("Crystal") then
+                                if (v3 == 50) then
+                                    game:GetService("StarterGui"):SetCore("SendNotification", {
+                                        Title = "Error",
+                                        Text = "Infection attempt failed!",
+                                    })
+                                end
+                                tpWithouCheck(v2)
+                                return
+                            else
+                                if (not v1.Character.RightLowerArm:FindFirstChild("Crystal")) then
+                                    if v3 == 50 then
+                                        if (v3 == 50) then
+                                            game:GetService("StarterGui"):SetCore("SendNotification", {
+                                                Title = "Error",
+                                                Text = "Infection attempt failed!",
+                                            })
+                                        end
+                                        tpWithouCheck(v2)
+                                        return
+                                    end
+                                else
+                                    if (v3 == 50) then
+                                        game:GetService("StarterGui"):SetCore("SendNotification", {
+                                            Title = "Error",
+                                            Text = "Infection attempt failed!",
+                                        })
+                                    end
+                                    tpWithouCheck(v2)
+                                    return
+                                end
+                            end
+                        end
+                    end
+                else
+                    v3 = 0
+                    while true do
+                        tpWithouCheck(v1.Character.HumanoidRootPart.Position)
+                        wait(0.1)
+                        v3 = (v3 + 1)
+                        if v1.Character.LeftLowerArm:FindFirstChild("Crystal") then
+                            if (v3 == 50) then
+                                game:GetService("StarterGui"):SetCore("SendNotification", {
+                                    Title = "Error",
+                                    Text = "Infection attempt failed!",
+                                })
+                            end
+                            tpWithouCheck(v2)
+                            return
+                        else
+                            if (not v1.Character.RightLowerArm:FindFirstChild("Crystal")) then
+                                if v3 == 50 then
+                                    if (v3 == 50) then
+                                        game:GetService("StarterGui"):SetCore("SendNotification", {
+                                            Title = "Error",
+                                            Text = "Infection attempt failed!",
+                                        })
+                                    end
+                                    tpWithouCheck(v2)
+                                    return
+                                end
+                            else
+                                if (v3 == 50) then
+                                    game:GetService("StarterGui"):SetCore("SendNotification", {
+                                        Title = "Error",
+                                        Text = "Infection attempt failed!",
+                                    })
+                                end
+                                tpWithouCheck(v2)
+                                return
+                            end
+                        end
+                    end
+                end
+            else
+                v3 = 0
+                while true do
+                    tpWithouCheck(v1.Character.HumanoidRootPart.Position)
+                    wait(0.1)
+                    v3 = (v3 + 1)
+                    if v1.Character.LeftLowerArm:FindFirstChild("Crystal") then
+                        if (v3 == 50) then
+                            game:GetService("StarterGui"):SetCore("SendNotification", {
+                                Title = "Error",
+                                Text = "Infection attempt failed!",
+                            })
+                        end
+                        tpWithouCheck(v2)
+                        return
+                    else
+                        if (not v1.Character.RightLowerArm:FindFirstChild("Crystal")) then
+                            if v3 == 50 then
+                                if (v3 == 50) then
+                                    game:GetService("StarterGui"):SetCore("SendNotification", {
+                                        Title = "Error",
+                                        Text = "Infection attempt failed!",
+                                    })
+                                end
+                                tpWithouCheck(v2)
+                                return
+                            end
+                        else
+                            if (v3 == 50) then
+                                game:GetService("StarterGui"):SetCore("SendNotification", {
+                                    Title = "Error",
+                                    Text = "Infection attempt failed!",
+                                })
+                            end
+                            tpWithouCheck(v2)
+                            return
+                        end
+                    end
+                end
+            end
+        end)
+        v28:AddButton("Trigger SCP-096", function(...)
+            local v1 = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+            if tp(((game:GetService("Workspace").SCPs["SCP-096"].Rig.Head.CFrame.LookVector * 3) + game:GetService("Workspace").SCPs["SCP-096"].Rig.Head.CFrame)) then
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.lookAt(game.Players.LocalPlayer.Character.HumanoidRootPart.Position, game:GetService("Workspace").SCPs["SCP-096"].Rig.Head.Position)
+                notification("Notice", "If SCP-096 doesn't get angered, try looking at it manually.")
+                wait(4)
+                tpWithouCheck(812, 40, -71)
+                notification("Stay here", "You'll get teleported back to your original position when the time is right.")
+                wait(28)
+                tpWithouCheck(v1)
+            end
+            return
+        end)
+        local v30 = v21:CreateSector("Player", "right")
+        local v31 = true
+        v30:AddToggle("Anti-AFK", v5.Farm, function(p1, ...)
+            v5.Farm = p1
+            if (not v9.Loaded) then
+                return
+            end
+            if (not v5.Farm) then
+                return
+            end
+            local v1 = v26
+            if v31 then
+                v1 = Instance.new("Part")
+                v1.Parent = Workspace
+                v1.Position = Vector3.new(21, 18, 518)
+                v1.Anchored = true
+                v1.Size = Vector3.new(500, 1, 500)
+                pcall(function(...)
+                    local v2 = Instance.new("Decal")
+                    v2.Parent = v1
+                    v2.Face = Enum.NormalId.Top
+                    v2.Texture = "http://www.roblox.com/asset/?id=2093843497"
+                    return
+                end)
+                v26 = false
+            end
+            while true do
+                v1 = math.random(1, 4)
+                tpWithouCheck(21, 21, 518)
+                wait(0.5)
+                if (v1 == 1) then
+                    presskey(keys.w, math.random(5, 13))
+                else
+                    if (v1 == 2) then
+                        presskey(keys.a, math.random(5, 13))
+                    else
+                        if (v1 ~= 3) then
+                            presskey(keys.d, math.random(5, 13))
+                        else
+                            presskey(keys.s, math.random(5, 13))
+                        end
+                    end
+                end
+                wait(1)
+                if v5.Farm == false then
+                    return
+                end
+            end
+        end)
+        v30:AddToggle("No-Clip", false, function(p1, ...)
+            if (not p1) then
+                v5.Clip:Disconnect()
+            else
+                v5.Clip = game:GetService("RunService").Stepped:Connect(NoclipLoop)
+            end
+            return
+        end)
+        v30:AddSeperator("")
+        v30:AddTextbox("Authorize Player", "", function(p1, ...)
+            local v1 = v9.Loaded
+            if v1 then
+                v1 = GetPlayerFromShort(p1)
+                if (not v1) then
+                    notification("Error", "Failed to locate target.")
+                else
+                    if (not game.Players.LocalPlayer.Backpack:FindFirstChild("Authorize")) then
+                        if (not game.Players.LocalPlayer.Character:FindFirstChild("Authorize")) then
+                            notification("Error", "Failed to locate the authorize tool.\10Join a team that has this tool to use this feature.")
+                        else
+                            game:GetService("ReplicatedStorage").Remotes.Authorize:FireServer(v1)
+                        end
+                    else
+                        game.Players.LocalPlayer.Backpack:FindFirstChild("Authorize").Parent = game.Players.LocalPlayer.Character
+                        game:GetService("ReplicatedStorage").Remotes.Authorize:FireServer(v1)
+                    end
+                end
+                return
+            else
+                return
+            end
+        end)
+        v30:AddButton("Authorize All", function(...)
+            local v2 = game.Players.LocalPlayer.Backpack
+            local v3 = v2
+            local v4 = "Authorize"
+            local v5 = v2:FindFirstChild("Authorize")
+            if v5 then
+                game.Players.LocalPlayer.Backpack:FindFirstChild("Authorize").Parent = game.Players.LocalPlayer.Character
+                v3 = game.Players
+                v4 = v3
+                v3 = v3.GetPlayers
+                v2 = ({
+                    pairs(v3(v4)),
+                })[1]
+                local v6 = ({
+                    v5(v3(v4)),
+                })[2]
+                local v7 = {
+                    v5(v6, ({
+                        v5(v6(v4)),
+                    })[3]),
+                }
+                local v8 = v7[1]
+                if v8[1] then
+                    v4 = v8[1]
+                end
+            else
+                v2 = game.Players.LocalPlayer.Character
+                v3 = v2
+                v4 = "Authorize"
+                v2 = v5.FindFirstChild(v2, "Authorize")
+                if v5 then
+                    v3 = game.Players
+                    v4 = v3
+                    v3 = v3.GetPlayers
+                    v2 = ({
+                        pairs(v3(v4)),
+                    })[1]
+                    local v9 = ({
+                        v5(v3(v4)),
+                    })[2]
+                    local v10 = {
+                        v5(v9, ({
+                            v5(v9(v4)),
+                        })[3]),
+                    }
+                    local v11 = v10[1]
+                    if v11[1] then
+                        v4 = v11[1]
+                    end
+                else
+                    notification("Error", "Failed to locate the authorize tool.\10Join a team that has this tool to use this feature.")
+                end
+            end
+            return
+        end)
+        local v32 = {}
+        local v33 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50), string.rep("#", 50))
+        local v34 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50), string.rep("e", 50))
+        local v35 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50), string.rep("x", 50))
+        local v36 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50), string.rep("t", 50))
+        local v37 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50), string.rep("y", 50))
+        local v38 = string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50), string.rep("f", 50))
+        for _, v39 in ipairs({
+            string.format("%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s\10%s", string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50), string.rep("l", 50)),
+        }) do
+            table.insert(v32, v39)
+        end
+        v30:AddToggle("Spam Radio", v5.Radio, function(p1, ...)
+            v5.Radio = p1
+            while true do
+                if (not v5.Radio) then
+                    return
+                else
+                    if (not wait(1)) then
+                        return
+                    else
+                        local v1 = {
+                            pairs(v32),
+                        }
+                        local v2 = {
+                            v1[1](v1[2], v1[3]),
+                        }
+                        local v3 = v2[1]
+                        if v3[1] then
+                            v1 = v3[1]
+                        end
+                    end
+                end
+            end
+        end)
+        v30:AddButton("Open Shop", function(...)
+            game:GetService("Players").LocalPlayer.PlayerGui.Utility.Handler.Click:Play()
+            game:GetService("Players").LocalPlayer.PlayerGui.Utility.Jerry:TweenPosition(UDim2.new(0.5, 0, 0.5, 0), nil, nil, 0.5)
+            return
+        end)
+        v30:AddButton("Open Customization", function(...)
+            game:GetService("Players").LocalPlayer.PlayerGui.Utility.Handler.Click:Play()
+            game:GetService("Players").LocalPlayer.PlayerGui.Utility.Customization:TweenPosition(UDim2.new(0.5, 0, 0.5, 0), nil, nil, 0.5)
+            return
+        end)
+        local v40 = v22:CreateSector("Security", "left")
+        v33:AddToggle("Mod Detector", v5.ModDetector, function(p1, ...)
+            v5.ModDetector = p1
+            return
+        end)
+        v33:AddToggle("Leave on Mod", v5.ModLeave, function(p1, ...)
+            v5.ModLeave = p1
+            return
+        end)
+        v33:AddSlider("Leave Delay", 0, v5.LeaveDelay, 25, 1, function(p1, ...)
+            v5.LeaveDelay = p1
+            return
+        end)
+        v33:AddSeperator("Teleports")
+        v33:AddToggle("Check For Players Nearby", v5.ProxCheck, function(p1, ...)
+            v5.ProxCheck = p1
+            return
+        end)
+        v33:AddSlider("Distance", 0, v5.ProxDistance, 100, 1, function(p1, ...)
+            v5.ProxDistance = p1
+            return
+        end)
+        local v41 = v22:CreateSector("Character", "right")
+        v41:AddSlider("Tween Speed", 10, v5.Tween, 4000, 1, function(p1, ...)
+            v5.Tween = p1
+            v19 = p1
+            return
+        end)
+        v41:AddSlider("Walkspeed", 1, 21, 400, 1, function(p1, ...)
+            if (not v9.Loaded) then
+                return
+            end
+            game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = p1
+            return
+        end)
+        v41:AddSlider("JumpPower", 25, 50, 500, 1, function(p1, ...)
+            if v9.Loaded then
+                game:GetService("Players").LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = p1
+                return
+            else
+                return
+            end
+        end)
+        local v42 = false
+        v41:AddButton("Fling/Fly bypass", function(...)
+            local v1 = v35
+            if v42 then
+                notification("Error", "Already bypassed")
+            else
+                v1 = v7.PlayerService.LocalPlayer
+                local v2 = {}
+                table.insert(v2, "BodyGyro")
+                table.insert(v2, "BodyThrust")
+                table.insert(v2, "BodyAngularVelocity")
+                table.insert(v2, "SelectionBox")
+                local v3 = nil
+                local v4 = hookmetamethod(game, "__namecall", function(...)
+                    local v4 = {
+                        ...,
+                    }
+                    local v5 = v4[1]
+                    local v6 = getnamecallmethod()
+                    local v7 = getcallingscript()
+                    if not v7 then
+                        v7 = 0
+                    end
+                    local v8 = checkcaller()
+                    if not v8 then
+                        if (v6 == "FindFirstChildOfClass") then
+                            v8 = tonumber(v7.Name)
+                            if not v8 then
+                                v8 = 0
+                            end
+                            if (1634757802 < v8) then
+                                if v5:IsDescendantOf(v1.Character) then
+                                    if (not table.find(v2, v4[2])) then
+                                        return v3(...)
+                                    else
+                                        return nil
+                                    end
+                                end
+                            end
+                        end
+                    end
+                    return v3(...)
+                end)
+                v35 = true
+            end
+            return
+        end)
+        local v43 = v22:CreateSector("Server", "right")
+        v43:AddButton("Rejoin", function(...)
+            game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+            return
+        end)
+        v43:AddButton("Server Hop", function(...)
+            local v1 = {}
+            local v2 = game:GetService("HttpService"):JSONDecode(game:HttpGetAsync((("https://games.roblox.com/v1/games/" .. game.PlaceId) .. "/servers/Public?sortOrder=Asc&limit=100"))).data
+            local v3 = ({
+                ipairs(v2),
+            })[1]
+            local v4 = ({
+                v3(v2),
+            })[2]
+            local v5 = {
+                v3(v2, ({
+                    v3(v2),
+                })[3]),
+            }
+            if (0 < (#v1)) then
+                game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, v1[math.random(1, (#v1))])
+            else
+                notif("Serverhop", "Failed to locate a server")
+            end
+            return
+        end)
+        v43:AddButton("Smallest Server", function(...)
+            local v1 = (("https://games.roblox.com/v1/games/" .. game.PlaceId) .. "/servers/Public?sortOrder=Asc&limit=100")
+            function serversearch(...)
+                local v2 = {
+                    pairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync(v1)).data),
+                }
+                local v3 = {
+                    v2[1](v2[2], v2[3]),
+                }
+                return
+            end
+            local function f3(...)
+                serversearch()
+                local v2 = {
+                    pairs(game:GetService("HttpService"):JSONDecode(game:HttpGetAsync(v1))),
+                }
+                local v3 = {
+                    v2[1](v2[2], v2[3]),
+                }
+                return
+            end
+            f3()
+            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, nil)
+            return
+        end)
+        v43:AddButton("Join Discord", function(...)
+            local v1 = "Af5NFRJvFV"
+            local v2 = 6453
+            while true do
+                if (v2 > 6464) then
+                    break
+                end
+                local v4 = v2
+                spawn(function(...)
+                    pcall(function(...)
+                        v3({
+                            Url = (("http://127.0.0.1:" .. tostring(v4)) .. "/rpc?v=1"),
+                            Method = "POST",
+                            Headers = {
+                                ["Content-Type"] = "application/json",
+                                Origin = "https://discord.com",
+                            },
+                            Body = game:GetService("HttpService"):JSONEncode({
+                                cmd = "INVITE_BROWSER",
+                                nonce = game:GetService("HttpService"):GenerateGUID(false),
+                                args = {
+                                    invite = {
+                                        code = v1,
+                                    },
+                                    code = v1,
+                                },
+                            }),
+                        })
+                        return
+                    end)
+                    return
+                end)
+                v2 = (v2 + 1)
+                if ((v2 + 1) <= 6464) then
+                    v4 = (v2 + 1)
+                end
+            end
+            return
+        end)
+        v43:AddButton("Copy Discord Invite", function(...)
+            setclipboard("https://discord.gg/Af5NFRJvFV")
+            return
+        end)
+        local v44 = v22:CreateSector("Teleports", "left")
+        v44:AddTextbox("Teleport to player", "", function(p1, ...)
+            local v1 = v9.Loaded
+            if v1 then
+                v1 = GetPlayerFromShort(p1)
+                if v1 then
+                    tpWithouCheck(v1.Character.HumanoidRootPart.Position)
+                else
+                    game:GetService("StarterGui"):SetCore("SendNotification", {
+                        Title = "Error",
+                        Text = "Failed to locate target!",
+                    })
+                end
+                return
+            else
+                return
+            end
+        end)
+        local v45 = {}
+        table.insert(v45, "O5 Lounge")
+        table.insert(v45, "Security Spawn")
+        table.insert(v45, "Interrogation Room")
+        table.insert(v45, "Intelligence Spawn")
+        table.insert(v45, "Helipad")
+        table.insert(v45, "Airlock")
+        v44:AddDropdown("Sector-1", v45, "N/A", false, function(p1, ...)
+            if (p1 == "O5 Lounge") then
+                tp(CFrame.new(-493, 50, 111))
+            else
+                if (p1 ~= "Security Spawn") then
+                    if (p1 == "Interrogation Room") then
+                        tp(CFrame.new(-537, 40, 184))
+                    else
+                        if (p1 ~= "Intelligence Spawn") then
+                            if (p1 == "Airlock") then
+                                tp(CFrame.new(-573, 31, 502))
+                            else
+                                if p1 == "Helipad" then
+                                    tp(CFrame.new(-537, 40, 184))
+                                end
+                            end
+                        else
+                            tp(CFrame.new(-603, 40, 208))
+                        end
+                    end
+                else
+                    tp(CFrame.new(-603, 40, -36))
+                end
+            end
+            return
+        end)
+        local v46 = {}
+        table.insert(v45, "Class-D Cells")
+        table.insert(v45, "CDC Shop")
+        table.insert(v45, "CDC")
+        table.insert(v45, "Briefing Area - Left")
+        table.insert(v45, "Briefing Area - Right")
+        table.insert(v45, "CDC Viewing Area")
+        table.insert(v45, "FP Item Shop")
+        table.insert(v45, "SCP-131")
+        table.insert(v45, "SCP-2950")
+        table.insert(v45, "SCP-999")
+        table.insert(v45, "SCP-066")
+        table.insert(v45, "SCP-409")
+        table.insert(v45, "SCP-1299")
+        table.insert(v45, "SCP-173")
+        table.insert(v45, "SCP-023")
+        table.insert(v45, "SCP-002")
+        table.insert(v45, "AD Spawn")
+        table.insert(v45, "Nuclear Shelter")
+        table.insert(v45, "Control Room")
+        table.insert(v45, "Transformer Room")
+        table.insert(v45, "ScD Spawn")
+        table.insert(v45, "Medical Wing")
+        v44:AddDropdown("Sector-2", v45, "N/A", false, function(p1, ...)
+            if (p1 == "Class-D Cells") then
+                tp(CFrame.new(60, 40, 566))
+            else
+                if (p1 ~= "CDC Shop") then
+                    if (p1 == "CDC") then
+                        tp(CFrame.new(21, 40, 517))
+                    else
+                        if (p1 == "Briefing Area - Left") then
+                            tp(CFrame.new(51, 40, 414))
+                        else
+                            if (p1 == "Briefing Area - Right") then
+                                tp(CFrame.new(-8, 40, 413))
+                            else
+                                if (p1 ~= "CDC Viewing Area") then
+                                    if (p1 ~= "FP Item Shop") then
+                                        if (p1 ~= "SCP-131") then
+                                            if (p1 ~= "SCP-2950") then
+                                                if (p1 ~= "SCP-999") then
+                                                    if (p1 ~= "SCP-066") then
+                                                        if (p1 ~= "SCP-409") then
+                                                            if (p1 ~= "Medical Wing") then
+                                                                if (p1 ~= "SCP-1299") then
+                                                                    if (p1 == "SCP-173") then
+                                                                        tp(CFrame.new(161, 40, 140))
+                                                                    else
+                                                                        if (p1 ~= "SCP-023") then
+                                                                            if (p1 ~= "SCP-002") then
+                                                                                if (p1 ~= "AD Spawn") then
+                                                                                    if (p1 ~= "Nuclear Shelter") then
+                                                                                        if (p1 == "Control Room") then
+                                                                                            tp(CFrame.new(110, 40, 238))
+                                                                                        else
+                                                                                            if (p1 ~= "Transformer Room") then
+                                                                                                if p1 == "ScD Spawn" then
+                                                                                                    tp(CFrame.new(304, 40, 31))
+                                                                                                end
+                                                                                            else
+                                                                                                tp(CFrame.new(-96, 40, -146))
+                                                                                            end
+                                                                                        end
+                                                                                    else
+                                                                                        tp(CFrame.new(232, 31, 503))
+                                                                                    end
+                                                                                else
+                                                                                    tp(CFrame.new(-444, 46, 162))
+                                                                                end
+                                                                            else
+                                                                                tp(CFrame.new(-80, 40, 134))
+                                                                            end
+                                                                        else
+                                                                            tp(CFrame.new(260, 40, 248))
+                                                                        end
+                                                                    end
+                                                                else
+                                                                    tp(CFrame.new(143, 40, -68))
+                                                                end
+                                                            else
+                                                                tp(CFrame.new(66, 40, -152))
+                                                            end
+                                                        else
+                                                            tp(CFrame.new(-86, 36, -23))
+                                                        end
+                                                    else
+                                                        tp(CFrame.new(-218, 40, -37))
+                                                    end
+                                                else
+                                                    tp(CFrame.new(-282, 40, 37))
+                                                end
+                                            else
+                                                tp(CFrame.new(-213, 40, 191))
+                                            end
+                                        else
+                                            tp(CFrame.new(-216, 40, 301))
+                                        end
+                                    else
+                                        tp(CFrame.new(34, 40, 322))
+                                    end
+                                else
+                                    tp(CFrame.new(21, 60, 471))
+                                end
+                            end
+                        end
+                    end
+                else
+                    tp(CFrame.new(-76, 40, 463))
+                end
+            end
+            return
+        end)
+        table.insert(v45, "MTF Spawn")
+        table.insert(v45, "SCP-008")
+        table.insert(v45, "SCP-049")
+        table.insert(v45, "SCP-966")
+        table.insert(v45, "SCP-096")
+        table.insert(v45, "SCP-457")
+        v44:AddDropdown("Sector-3", v45, "N/A", false, function(p1, ...)
+            if (p1 ~= "MTF Spawn") then
+                if (p1 == "SCP-008") then
+                    tp(CFrame.new(529, 40, 352))
+                else
+                    if (p1 == "SCP-049") then
+                        tp(CFrame.new(606, 40, 51))
+                    else
+                        if (p1 == "SCP-966") then
+                            tp(CFrame.new(657, 40, 47))
+                        else
+                            if (p1 == "SCP-096") then
+                                tp(CFrame.new(662, 40, -122))
+                            else
+                                if p1 == "SCP-457" then
+                                    tp(CFrame.new(786, 40, -75))
+                                end
+                            end
+                        end
+                    end
+                end
+            else
+                tp(CFrame.new(414, 40, 87))
+            end
+            return
+        end)
+        local v47 = v22:CreateSector("ESP Setup", "left")
+        v47:AddToggle("Boxes", true, function(p1, ...)
+            v15.Boxes = p1
+            return
+        end)
+        v47:AddToggle("Tracers", false, function(p1, ...)
+            v15.Tracers = p1
+            return
+        end)
+        v47:AddToggle("Names", false, function(p1, ...)
+            v15.Names = p1
+            return
+        end)
+        pcall(function(...)
+            v23:CreateConfigSystem("left")
+            return
+        end)
+        pcall(function(...)
+            local v2 = {}
+            v2.fontsize = 15
+            v2.titlesize = 18
+            v2.font = Enum.Font.Code
+            v2.background = "rbxassetid://5553946656"
+            v2.tilesize = 90
+            v2.cursor = true
+            v2.cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f"
+            v2.backgroundcolor = Color3.fromRGB(20, 20, 20)
+            v2.tabstextcolor = Color3.fromRGB(240, 240, 240)
+            v2.bordercolor = Color3.fromRGB(60, 60, 60)
+            v2.accentcolor = Color3.fromRGB(28, 56, 139)
+            v2.accentcolor2 = Color3.fromRGB(16, 31, 78)
+            v2.outlinecolor = Color3.fromRGB(60, 60, 60)
+            v2.outlinecolor2 = Color3.fromRGB(0, 0, 0)
+            v2.sectorcolor = Color3.fromRGB(30, 30, 30)
+            v2.toptextcolor = Color3.fromRGB(255, 255, 255)
+            v2.topheight = 48
+            v2.topcolor = Color3.fromRGB(30, 30, 30)
+            v2.topcolor2 = Color3.fromRGB(30, 30, 30)
+            v2.buttoncolor = Color3.fromRGB(49, 49, 49)
+            v2.buttoncolor2 = Color3.fromRGB(39, 39, 39)
+            v2.itemscolor = Color3.fromRGB(200, 200, 200)
+            v2.itemscolor2 = Color3.fromRGB(210, 210, 210)
+            local v3 = {}
+            v3.fontsize = 15
+            v3.titlesize = 18
+            v3.font = Enum.Font.Code
+            v3.background = "rbxassetid://5553946656"
+            v3.tilesize = 90
+            v3.cursor = true
+            v3.cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f"
+            v3.backgroundcolor = Color3.fromRGB(20, 20, 20)
+            v3.tabstextcolor = Color3.fromRGB(240, 240, 240)
+            v3.bordercolor = Color3.fromRGB(60, 60, 60)
+            v3.accentcolor = Color3.fromRGB(28, 56, 139)
+            v3.accentcolor2 = Color3.fromRGB(16, 31, 78)
+            v3.outlinecolor = Color3.fromRGB(60, 60, 60)
+            v3.outlinecolor2 = Color3.fromRGB(0, 0, 0)
+            v3.sectorcolor = Color3.fromRGB(30, 30, 30)
+            v3.toptextcolor = Color3.fromRGB(255, 255, 255)
+            v3.topheight = 48
+            v3.topcolor = Color3.fromRGB(30, 30, 30)
+            v3.topcolor2 = Color3.fromRGB(30, 30, 30)
+            v3.buttoncolor = Color3.fromRGB(49, 49, 49)
+            v3.buttoncolor2 = Color3.fromRGB(39, 39, 39)
+            v3.itemscolor = Color3.fromRGB(200, 200, 200)
+            v3.itemscolor2 = Color3.fromRGB(210, 210, 210)
+            local v4 = v23:CreateSector("UI Settings", "right")
+            v4:AddKeybind("Toggle UI", Enum.KeyCode.RightShift, function(p1, ...)
+                v20.hidebutton = p1
+                return
+            end, function(...)
+                return
+            end)
+            v4:AddSeperator("Themes")
+            v4:AddToggle("Update Immediately", v5.QuickUpdate, function(p1, ...)
+                v5.QuickUpdate = p1
+                return
+            end)
+            v4:AddColorpicker("Background Color", v2.backgroundcolor, function(p1, ...)
+                v2.backgroundcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Tab Text Color", v2.tabstextcolor, function(p1, ...)
+                v2.tabstextcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Border Color", v2.bordercolor, function(p1, ...)
+                v2.bordercolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Accent Color", v2.accentcolor, function(p1, ...)
+                v2.accentcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Accent Color 2", v2.accentcolor2, function(p1, ...)
+                v2.accentcolor2 = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Outline Color", v2.outlinecolor, function(p1, ...)
+                v2.outlinecolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Outline Color 2", v2.outlinecolor2, function(p1, ...)
+                v2.outlinecolor2 = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Sector Color", v2.sectorcolor, function(p1, ...)
+                v2.sectorcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Top Text Color", v2.toptextcolor, function(p1, ...)
+                v2.toptextcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Top Color", v2.topcolor, function(p1, ...)
+                v2.topcolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Top Color 2", v2.topcolor2, function(p1, ...)
+                v2.topcolor2 = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Button Color", v2.buttoncolor, function(p1, ...)
+                v2.buttoncolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Button Color 2", v2.buttoncolor2, function(p1, ...)
+                v2.buttoncolor2 = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            v4:AddColorpicker("Item Color", v2.itemscolor, function(p1, ...)
+                v2.itemscolor = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end)
+            local function f4(p1, ...)
+                v2.itemscolor2 = p1
+                if v5.QuickUpdate then
+                    v20:UpdateTheme(v2)
+                end
+                return
+            end
+            v4:AddColorpicker("Item Color 2", v2.itemscolor2, f4)
+            v4:AddButton("Apply", function(...)
+                v20:UpdateTheme(v2)
+                return
+            end)
+            local v6 = v4
+            local v7 = "Reset"
+            local function f5(...)
+                v20:UpdateTheme(v3)
+                return
+            end
+            v4:AddButton("Reset", f5)
+            local v8 = readfile
+            if readfile then
+                v8 = writefile
+                if writefile then
+                    v8 = isfolder
+                    if isfolder then
+                        v8 = listfiles
+                        if listfiles then
+                            v8 = makefolder
+                            if makefolder then
+                                if isfolder("Anomaly_Scripts") then
+                                    if (not isfolder("Anomaly_Scripts/Themes")) then
+                                        makefolder("Anomaly_Scripts/Themes")
+                                    end
+                                else
+                                    makefolder("Anomaly_Scripts")
+                                    makefolder("Anomaly_Scripts/Themes")
+                                end
+                                v8 = v23:CreateSector("Themes", "left")
+                                v8:AddTextbox("Theme Name", "", function(p1, ...)
+                                    if (not v9.Loaded) then
+                                        return
+                                    end
+                                    v5.ThemeName = p1
+                                    return
+                                end)
+                                v6 = v8:AddDropdown("Themes", themes, "", false, function(p1, ...)
+                                    if v9.Loaded then
+                                        return
+                                    else
+                                        return
+                                    end
+                                end)
+                                f4 = "Anomaly_Scripts/Themes"
+                                v7 = ({
+                                    pairs(listfiles("Anomaly_Scripts/Themes")),
+                                })[1]
+                                local v10 = ({
+                                    v7(listfiles("Anomaly_Scripts/Themes")),
+                                })[2]
+                                local v11 = {
+                                    v7(v10, ({
+                                        v7(v10("Anomaly_Scripts/Themes")),
+                                    })[3]),
+                                }
+                                if v11[1] then
+                                    f4 = v11[1]
+                                end
+                                v8:AddButton("Create", function(...)
+                                    local v1 = v5.ThemeName
+                                    if v1 then
+                                        v1 = v5.ThemeName
+                                        if (v1 ~= "") then
+                                            v1 = ({
+                                                pairs(v2),
+                                            })[1]
+                                            local v8 = ({
+                                                v1(v2),
+                                            })[2]
+                                            local v9 = {
+                                                v1(v2, ({
+                                                    v1(v2),
+                                                })[3]),
+                                            }
+                                            writefile((("Anomaly_Scripts/Themes/" .. v5.ThemeName) .. ".json"), game:GetService("HttpService"):JSONEncode({}))
+                                            v6:Add(v5.ThemeName)
+                                            notification("Success", "Your theme has been successfully saved in your exploits workspace.")
+                                            return
+                                        else
+                                            return notification("Error", "Please set a theme name before creating a theme.")
+                                        end
+                                    end
+                                    return notification("Error", "Please set a theme name before creating a theme.")
+                                end)
+                                v8:AddButton("Save", function(...)
+                                    local v1 = v6
+                                    local v5 = v6
+                                    local v9 = v6:Get()
+                                    if (v9 ~= "") then
+                                        v5 = (("Anomaly_Scripts/Themes/" .. v6:Get()) .. ".json")
+                                        v1 = isfile(v5)
+                                        if v9 then
+                                            v5 = v2
+                                            v1 = ({
+                                                pairs(v2),
+                                            })[1]
+                                            v5 = ({
+                                                v9(v2),
+                                            })[2]
+                                            local v10 = {
+                                                v9(v5, ({
+                                                    v9(v5),
+                                                })[3]),
+                                            }
+                                            writefile((("Anomaly_Scripts/Themes/" .. v6:Get()) .. ".json"), game:GetService("HttpService"):JSONEncode({}))
+                                            notification("Success", "The theme has been saved.")
+                                        end
+                                    else
+                                        notification("Error", "Please select a theme you would like to update.")
+                                    end
+                                    return
+                                end)
+                                v8:AddButton("Load", function(...)
+                                    local v1 = v6
+                                    if (v6:Get() == "") then
+                                        notification("Error", "Please select a theme you would like to load.")
+                                    else
+                                        local v5 = v6:Get()
+                                        v1 = (("Anomaly_Scripts/Themes/" .. v5) .. ".json")
+                                        if isfile(v1) then
+                                            local v9 = game:GetService("HttpService"):JSONDecode(readfile((("Anomaly_Scripts/Themes/" .. v6:Get()) .. ".json")))
+                                            v1 = ({
+                                                pairs(v9),
+                                            })[1]
+                                            local v11 = ({
+                                                v1(v9),
+                                            })[2]
+                                            local v12 = {
+                                                v1(v9, ({
+                                                    v1(v9),
+                                                })[3]),
+                                            }
+                                            v20:UpdateTheme(v2)
+                                            notification("Success", "The theme has been successfully loaded.")
+                                        end
+                                    end
+                                    return
+                                end)
+                                v8:AddButton("Delete", function(...)
+                                    if (v6:Get() == "") then
+                                        notification("Error", "Please select a theme you would like to delete.")
+                                    else
+                                        if isfile((("Anomaly_Scripts/Themes/" .. v6:Get()) .. ".json")) then
+                                            delfile((("Anomaly_Scripts/Themes/" .. v6:Get()) .. ".json"))
+                                            v6:Remove(v6:Get())
+                                            notification("Success", "The theme has been successfully deleted.")
+                                        end
+                                    end
+                                    return
+                                end)
+                            end
+                        end
+                    end
+                end
+            end
+            return
+        end)
+        game:GetService("Players").PlayerAdded:Connect(function(p1, ...)
+            local v1 = p1:GetRankInGroup(5479038)
+            local v2 = p1:GetRoleInGroup(5479038)
+            if v5.ModDetector then
+                if (250 <= v1) then
+                    notification(((("[" .. v2) .. "] ") .. p1.Name), "Moderator has joined the game.")
+                end
+            end
+            if v5.ModLeave then
+                if (250 <= v1) then
+                    wait(v5.LeaveDelay)
+                    game.Players.LocalPlayer:Kick((((("\10[" .. v2) .. "] ") .. p1.Name) .. "\10Moderator joined the game!"))
+                end
+            end
+            return
+        end)
+        local v48 = game:GetService("Players")
+        local v49 = v48.GetPlayers
+        local v50 = ({
+            pairs(v49(v48)),
+        })[1]
+        local v51 = ({
+            v50(v49(v48)),
+        })[2]
+        local v52 = {
+            v50(v51, ({
+                v50(v51(v45)),
+            })[3]),
+        }
+        if v52[1] then
+            v45 = v52[1]
+        end
+        v7.UserInputService.InputBegan:Connect(function(p1, ...)
+            if (p1.UserInputType == Enum.UserInputType.MouseButton2) then
+                if v7.PlayerService.LocalPlayer.Character:FindFirstChildOfClass("Tool"):FindFirstChild("Muzzle") then
+                    v6 = true
+                    if v5.FOV then
+                        v16.Visible = true
+                    end
+                end
+            end
+            return
+        end)
+        v7.UserInputService.InputEnded:Connect(function(p1, ...)
+            if p1.UserInputType == Enum.UserInputType.MouseButton2 then
+                v16.Visible = false
+                v6 = false
+            end
+            return
+        end)
+        v7.PlayerService.PlayerAdded:Connect(function(p1, ...)
+            p1.CharacterAdded:Connect(function(...)
+                if v5.HBE then
+                    if p1.Character then
+                        if (p1 ~= v7.PlayerService.LocalPlayer) then
+                            if IsEnemy(p1) then
+                                pcall(function(...)
+                                    local v1 = p1.Character:WaitForChild("HumanoidRootPart")
+                                    if v1 then
+                                        v1.CanCollide = false
+                                        v1.Size = Vector3.new(v5.HBESize, v5.HBESize, v5.HBESize)
+                                        v1.Transparency = v5.HBETransparency
+                                        v1.Material = Enum.Material.SmoothPlastic
+                                        v1.Color = f2
+                                    end
+                                    return
+                                end)
+                            end
+                        end
+                    end
+                end
+                return
+            end)
+            return
+        end)
+        spawn(function(...)
+            while true do
+                if (not wait(120)) then
+                    return
+                else
+                    Save()
+                end
+            end
+        end)
+        spawn(function(...)
+            while true do
+                if (not wait(0.5)) then
+                    return
+                end
+            end
+        end)
+        spawn(function(...)
+            while true do
+                if wait() then
+                    pcall(function(...)
+                        if v5.TriggerBot then
+                            if v6 then
+                                if v7.PlayerService.LocalPlayer.Character:FindFirstChildOfClass("Tool"):FindFirstChild("Muzzle") then
+                                    if ClosestPlayerToMouse() then
+                                        mouse1press()
+                                        wait()
+                                        mouse1release()
+                                    end
+                                end
+                            end
+                        end
+                        return
+                    end)
+                else
+                    return
+                end
+            end
+        end)
+        v7.PlayerService.PlayerRemoving:Connect(function(p1, ...)
+            if (p1 == v7.PlayerService.LocalPlayer) then
+                Save()
+            end
+            return
+        end)
+        local v53 = getrawmetatable(game).__namecall
+        setreadonly(v50, false)
+        local v54 = hookmetamethod(game, "__namecall", function(p1, ...)
+            local v1 = {
+                ...,
+            }
+            local v2 = getnamecallmethod()
+            local v3 = p1
+            local v4 = tostring(p1)
+            if (v4 == "Shot") then
+                if (v2 ~= "FireServer") then
+                    return v46(p1, ...)
+                else
+                    v4 = v5.State
+                    if v4 then
+                        v4 = math.random(0, 100)
+                        v3 = nil
+                        if (v5.Target ~= "Random") then
+                            v3 = v5.Target
+                        else
+                            v3 = v25[math.random(1, 15)]
+                        end
+                        player = ClosestPlayerToMouse()
+                        if player then
+                            if (v4 <= v5.Accuracy) then
+                                v1[1] = player.Character:FindFirstChild(v3).Position
+                                v1[2] = player.Character:FindFirstChild(v3)
+                                return p1:FireServer(table.unpack(v1))
+                            end
+                        end
+                        return p1:FireServer(table.unpack(v1))
+                    end
+                    return p1:FireServer(table.unpack(v1))
+                end
+            end
+            return v46(p1, ...)
+        end)
+        hookfunction(game.Players.LocalPlayer.Kick, function(...)
+            return
+        end)
+        hookfunction(workspace.Loadstring.InvokeServer, function(...)
+            return wait(9000000000)
+        end)
+        v9.Loaded = true
+        return
+    end),
+}
+local v7 = v6[2]
+if v6[1] then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Loaded",
+        Text = "The script has been loaded without any error occuring.",
+    })
+else
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Error",
+        Text = "An error has occured while loading the script. Some things may not work properly. The error has been reported to our developers.",
+    })
+    v3({
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+        },
+        Url = "https://neko-hot.xyz/data/error",
+        Body = game:GetService("HttpService"):JSONEncode({
+            Error = v7,
+        }),
+    })
+end
+return

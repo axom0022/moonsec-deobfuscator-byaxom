@@ -1,0 +1,261 @@
+-- [[ deobfuscated by axom - moonsec deobfuscator | our YouTube channel : https://youtube.com/@axos0022 | our discord server : https://discord.gg/Sps39CydcZ - finished in 814 ms ]]
+local function f1(p1, ...)
+    local v1 = false
+    pcall(function(...)
+        local v2 = islclosure
+        if (not islclosure) then
+            if not is_l_closure then
+                if not getconstants then
+                    v2 = debug.getconstants
+                end
+            end
+        end
+        v1 = v2(p1)
+        return
+    end)
+    return v1
+end
+local v1 = true
+local v2 = loadstring
+local v3 = f1(loadstring)
+if (not v3) then
+    local v4 = "concat"
+    v2 = table.concat
+    v3 = f1(table.concat)
+    if (not v3) then
+        v4 = "insert"
+        v2 = table.insert
+        v3 = f1(table.insert)
+        if (not v3) then
+            v2 = function(...)
+                return
+            end
+            v3 = f1(v2)
+            if v3 then
+                v4 = "dump"
+                v2 = string.dump
+                if not string.dump then
+                    v2 = getfenv
+                end
+                v3 = f1(v2)
+                if (not v3) then
+                    v3 = f1(string.char)
+                    if (not v3) then
+                        v1 = f1(string.byte)
+                    else
+                        v1 = v3
+                    end
+                else
+                    v1 = v3
+                end
+            else
+                v1 = true
+            end
+        else
+            v1 = v3
+        end
+    else
+        v1 = v3
+    end
+else
+    v1 = v3
+end
+if (not v1) then
+    v3 = game:GetService("VirtualUser")
+    game:GetService("Players").LocalPlayer.Idled:connect(function(...)
+        v3:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+        wait(1)
+        v3:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+        return
+    end)
+    local v5 = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))():MakeWindow({
+        Name = "Xtrey10x hub - Boxing Beta",
+        HidePremium = false,
+        SaveConfig = true,
+        ConfigFolder = "OrionTest",
+    })
+    local v6 = v5:MakeTab({
+        Name = "Boxing stats",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false,
+    })
+    local v7 = v5:MakeTab({
+        Name = "Misc",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false,
+    })
+    local v8 = v6:AddSection({
+        Name = "Stats",
+    })
+    local v9 = v5:MakeTab({
+        Name = "Training",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false,
+    })
+    _G.autobag = true
+    _G.autoDouble = true
+    _G.autospeed = true
+    function Hitbox(...)
+        _G.HeadSize = 15
+        _G.Disabled = true
+        game:GetService("RunService").RenderStepped:connect(function(...)
+            if _G.Disabled then
+                local v2 = game:GetService("Players")
+                local v3 = {
+                    next(v2, ({
+                        ({
+                            v2:GetPlayers(),
+                        })[1](v2),
+                    })[2]),
+                }
+            end
+            return
+        end)
+        return
+    end
+    function autobag(...)
+        while true do
+            if (_G.autobag ~= true) then
+                return
+            else
+                game:GetService("ReplicatedStorage").RemoteEvents.PlayerImpactRemote:FireServer(table.unpack({
+                    [1] = workspace.MainGymFolder.WorkoutEquipment.HeavyBag.ImpactReceiver,
+                    [2] = Vector3.new(560.2305908203125, 254.79176330566406, 209.10012817382812),
+                    [3] = false,
+                }))
+                wait()
+            end
+        end
+    end
+    function autoDouble(...)
+        while true do
+            if (_G.autoDouble == true) then
+                game:GetService("ReplicatedStorage").RemoteEvents.PlayerImpactRemote:FireServer(table.unpack({
+                    [1] = workspace.MainGymFolder.WorkoutEquipment.DoubleEndBag.ImpactReceiver,
+                    [2] = Vector3.new(29.263505935668945, 93.67526245117188, 642.5485229492188),
+                    [3] = false,
+                }))
+                wait()
+            else
+                return
+            end
+        end
+    end
+    function autospeed(...)
+        while true do
+            if (_G.autospeed ~= true) then
+                return
+            else
+                game:GetService("ReplicatedStorage").RemoteEvents.PlayerImpactRemote:FireServer(table.unpack({
+                    [1] = workspace.MainGymFolder.WorkoutEquipment.Speedbag:FindFirstChild("3DModel").SpeedBag,
+                    [2] = Vector3.new(224.2721405029297, -73.33026123046875, 605.6607055664062),
+                    [3] = false,
+                }))
+                wait()
+            end
+        end
+    end
+    v6:AddButton({
+        Name = "Hitbox",
+        Callback = function(...)
+            print("button pressed")
+            Hitbox()
+            return
+        end,
+    })
+    v6:AddButton({
+        Name = "No hitcooldown",
+        Callback = function(...)
+            print("button pressed")
+            game:GetService("ReplicatedStorage").PUNCHING_COOLDOWN.Value = 0
+            return
+        end,
+    })
+    v6:AddButton({
+        Name = "No dodge cooldown",
+        Callback = function(...)
+            print("button pressed")
+            game:GetService("ReplicatedStorage").DODGING_COOLDOWN.Value = 0
+            return
+        end,
+    })
+    v6:AddButton({
+        Name = "Inf Stamina(Cant hit with this on to disable click space)",
+        Callback = function(...)
+            print("button pressed")
+            game:GetService("ReplicatedStorage").RemoteEvents.PlayerStaminaRemote:FireServer(table.unpack({
+                [1] = "blocking",
+            }))
+            return
+        end,
+    })
+    local v10 = v7:AddSection({
+        Name = "Fake Currency",
+    })
+    v7:AddSlider({
+        Name = "Fake Cash",
+        Min = 10,
+        Max = 1000000,
+        Default = 5,
+        Color = Color3.fromRGB(255, 255, 255),
+        Increment = 1,
+        ValueName = "Cash",
+        Callback = function(p1, ...)
+            print(p1)
+            game.Players.LocalPlayer.CashCurrency.Value = p1
+            return
+        end,
+    })
+    v7:AddSlider({
+        Name = "Fake Gems",
+        Min = 10,
+        Max = 1000000,
+        Default = 5,
+        Color = Color3.fromRGB(255, 255, 255),
+        Increment = 1,
+        ValueName = "Cash",
+        Callback = function(p1, ...)
+            print(p1)
+            game.Players.LocalPlayer.GemCurrency.Value = p1
+            return
+        end,
+    })
+    local v11 = v9:AddSection({
+        Name = "Auto Train",
+    })
+    v9:AddLabel("GO TO WHATEVER TRAINING ITEM YOU WANT TO HIT")
+    v9:AddToggle({
+        Name = "HeavyBag",
+        Default = false,
+        Callback = function(p1, ...)
+            print(p1)
+            _G.autobag = p1
+            autobag()
+            return
+        end,
+    })
+    v9:AddToggle({
+        Name = "DoubleEndBag",
+        Default = false,
+        Callback = function(p1, ...)
+            print(p1)
+            _G.autoDouble = p1
+            autoDouble()
+            return
+        end,
+    })
+    v9:AddToggle({
+        Name = "SpeedBag",
+        Default = false,
+        Callback = function(p1, ...)
+            print(p1)
+            _G.autospeed = p1
+            autospeed()
+            return
+        end,
+    })
+    return
+else
+    a = (nil + 3)
+    return
+end

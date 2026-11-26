@@ -1,0 +1,66 @@
+-- [[ deobfuscated by axom - moonsec deobfuscator | our YouTube channel : https://youtube.com/@axos0022 | our discord server : https://discord.gg/Sps39CydcZ - finished in 138 ms ]]
+local function f1(p1, ...)
+    local v1 = false
+    pcall(function(...)
+        local v2 = islclosure
+        if not islclosure then
+            if not is_l_closure then
+                if not getconstants then
+                    v2 = debug.getconstants
+                end
+            end
+        end
+        v1 = v2(p1)
+        return
+    end)
+    return v1
+end
+local v1 = true
+local v2 = loadstring
+local v3 = f1(loadstring)
+if (not v3) then
+    v2 = table.concat
+    v3 = f1(table.concat)
+    if (not v3) then
+        v2 = table.insert
+        v3 = f1(table.insert)
+        if (not v3) then
+            v2 = function(...)
+                return
+            end
+            v3 = f1(v2)
+            if v3 then
+                v2 = string.dump
+                if not string.dump then
+                    v2 = getfenv
+                end
+                v3 = f1(v2)
+                if (not v3) then
+                    v3 = f1(string.char)
+                    if (not v3) then
+                        v1 = f1(string.byte)
+                    else
+                        v1 = v3
+                    end
+                else
+                    v1 = v3
+                end
+            else
+                v1 = true
+            end
+        else
+            v1 = v3
+        end
+    else
+        v1 = v3
+    end
+else
+    v1 = v3
+end
+if (not v1) then
+    game.Players.LocalPlayer:Kick("Detected... You will be banned within 24 Hours!")
+    return
+else
+    a = (nil + 3)
+    return
+end

@@ -1,0 +1,58 @@
+{
+ "boxing-battles": {
+  "blobbytes": 3534,
+  "strings": [
+   "https://raw.githubusercontent.com/liebertsx/Tora-Library/main/src/librarynew",
+   "Scare All",
+   "YouTube: Tora IsMe",
+   "callback",
+   "toggle",
+   "+1,0000 Strength",
+   "GetService",
+   "loadstring",
+   "CreateWindow",
+   "CoreGui",
+   "state",
+   "Instant Rebirth",
+   "Strength",
+   "This file was protected with MoonSec V3",
+   "+1,000 Strength",
+   "+1,000,000 Strength",
+   "button",
+   "FindFirstChild",
+   "+100,000 Strength",
+   "AddButton",
+   "_ZSWmDsaqpxPR",
+   "Spam Strength",
+   "ToraScript",
+   "flag",
+   "Boxing Battles",
+   "MoonSec_StringsHiddenAttr",
+   "AddToggle",
+   "Init",
+   "Destroy",
+   "game",
+   "text",
+   "HttpGet",
+   "AddLabel"
+  ]
+ },
+ "anti-afk-moonsec": {
+  "blobbytes": 5621,
+  "strings": [
+   "table",
+   "lshift",
+   "utf8",
+   "loadstring",
+   "bit32",
+   "This file was protected with MoonSec V3",
+   "bor",
+   "tonumber",
+   "ACGT",
+   "MoonSec_StringsHiddenAttr",
+   "_KRbtOqVmJMLG",
+   "sub",
+   "char"
+  ]
+ }
+}

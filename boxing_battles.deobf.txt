@@ -1,0 +1,76 @@
+if game:GetService("CoreGui"):FindFirstChild("ToraScript") then
+    game:GetService("CoreGui").ToraScript:Destroy()
+end
+local v1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/liebertsx/Tora-Library/main/src/librarynew", true))()
+local v2 = v1:CreateWindow("Boxing Battles")
+local function f1()
+    spawn(function()
+        _G.Strength = true
+        while true do
+            if not _G.Strength then
+                break
+            end
+            wait()
+            pcall(function()
+                game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401104590, true)
+                wait()
+            end)
+        end
+    end)
+end
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401104082, true)
+    end,
+    flag = "button",
+    text = "+1,000 Strength",
+})
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401104226, true)
+    end,
+    flag = "button",
+    text = "+1,0000 Strength",
+})
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401104347, true)
+    end,
+    flag = "button",
+    text = "+100,000 Strength",
+})
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401104590, true)
+    end,
+    flag = "button",
+    text = "+1,000,000 Strength",
+})
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3401108845, true)
+    end,
+    flag = "button",
+    text = "Instant Rebirth",
+})
+v2:AddButton({
+    callback = function()
+        game.MarketplaceService:SignalPromptProductPurchaseFinished(game.Players.LocalPlayer.UserId, 3450911952, true)
+    end,
+    flag = "button",
+    text = "Scare All",
+})
+v2:AddToggle({
+    callback = function(p1)
+        _G.Strength = p1
+        print("Strength: ", true)
+        f1()
+    end,
+    flag = "toggle",
+    state = false,
+    text = "Spam Strength",
+})
+v2:AddLabel({
+    text = "YouTube: Tora IsMe",
+})
+v1:Init()

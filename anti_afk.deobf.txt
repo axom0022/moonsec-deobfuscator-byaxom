@@ -1,0 +1,24 @@
+-- [[ deobfuscated by axom - moonsec deobfuscator | our YouTube channel : https://youtube.com/@axos0022 | our discord server : https://discord.gg/Sps39CydcZ - finished in 55 ms ]]
+local v1 = game.StarterGui
+local v2 = game:GetService("VirtualUser")
+local v3 = Enum.KeyCode.F15;
+if getgenv().AntiAFK then
+    v1:SetCore("SendNotification", {
+        Title = "Anti AFK",
+        Text = "Already Loaded",
+        Duration = 5,
+    })
+    return
+end;
+getgenv().AntiAFK = true;
+game.Players.LocalPlayer.Idled:Connect(function()
+    v2:CaptureController()
+    v2:SetKeyDown(v3)
+    v2:SetKeyUp(v3)
+    print("[Anti AFK] Reset " .. os.date("%X"))
+end);
+v1:SetCore("SendNotification", {
+    Title = "Anti AFK",
+    Text = "Load Completed",
+    Duration = 5,
+})
