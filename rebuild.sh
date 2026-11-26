@@ -17,5 +17,6 @@ python3 optimizeast.py "$D/wrap.lua" "$D/restyled.lua" >/dev/null
 python3 postprocessv2.py "$D/restyled.lua" "$D/pp.lua" | sed "s/^/  [$SLUG] /"
 python3 deadcode.py "$D/pp.lua" "$D/dce.lua" | sed "s/^/  [$SLUG] /"
 python3 postprocessv2.py --finalize "$D/dce.lua" "$SLUG.deobf.txt"
-/home/user/tools/luau-ast "$SLUG.deobf.txt" >/dev/null 2>&1 && echo "  [$SLUG] PARSE OK" || echo "  [$SLUG] PARSE FAIL"
+LAST="$(cd "$(dirname "$0")/.." && pwd)/tools/luau-ast"
+"$LAST" "$SLUG.deobf.txt" >/dev/null 2>&1 && echo "  [$SLUG] PARSE OK" || echo "  [$SLUG] PARSE FAIL"
 wc -c "$SLUG.deobf.txt"
